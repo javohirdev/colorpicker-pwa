@@ -1,0 +1,127 @@
+body{
+    background-color: #e0ffee;
+}
+h1 {
+	font-size: 3rem;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card{
+    width: 330px;
+    height: 275px;
+    background: #0a0a0a94;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.colorSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 25px;
+}
+#inputColor{
+    height: 40px;
+}
+#inputText{
+    background: #fff;
+    height: 32px;
+    margin-left: 10px;
+}
+button{
+    background: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+button:nth-child(2){
+    margin-left: 20px;
+}
+#demo{
+    opacity: 0;
+    background: #151d31;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: Poppins, sans-serif;
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .card{
+        width: 235px;
+        height: 230px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .colorSection{
+        margin: 20px 0 0;
+    }
+    button{
+        background: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 501px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .card{
+        width: 235px;
+        height: 230px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .colorSection{
+        margin: 20px 0 0;
+    }
+    button{
+        background: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 370px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .card{
+        width: 235px;
+        height: 230px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .colorSection{
+        margin: 20px 0 0;
+    }
+    button{
+        background: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
